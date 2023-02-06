@@ -104,7 +104,7 @@ CONFIG.captcha_setting = {
     password_growid = EXTERN.password_bot
 }
 
-CONFIG.use_payy_webhook = true
+CONFIG.use_payy_webhook = false
 CONFIG.say_random_word = true
 CONFIG.use_animation = true
 CONFIG.timezone = "UTC+7"
