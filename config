@@ -87,7 +87,7 @@ CONFIG.drop_item = {
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = "https://discord.com/api/webhooks/1072040217168584704/byk4017LOTYSHXT3CVv26Tp4kvubQ5vfxuDpoiqwPdp7lwsI3UqU5b07o6mRqSyul9Ee",
+    url_webhook = webhook_url,
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
