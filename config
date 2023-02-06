@@ -32,7 +32,7 @@ CONFIG = {
     },
     Other_setting = {
         repeat_world = true,
-        url_webhook = webhook_url,
+        url_webhook = webhook,
         short_webhook = true,
         disable_webhook = false
     },
@@ -87,11 +87,11 @@ CONFIG.drop_item = {
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = webhook_url,
+    url_webhook = "https://discord.com/api/webhooks/1072194647432118364/5y-LX09bVMn7qEyUWct4hAbNaMBMP3eWtsm-MkZkkSrFL6xgIJuP4CMMSkVopjT0kCda",
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
-        delay = 30 -- every 60 minute send status of bot
+        delay = 10 -- every 60 minute send status of bot
     }
 }
 
