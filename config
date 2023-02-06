@@ -4,7 +4,7 @@ CONFIG = {
     Main_setting = {
         License = "bujanklapok",
         ItemID = 4584,
-        Pack = "rare_seed"
+        Pack = "world_lock"
     },
     Farm_setting = {
         farm_world = farm,
@@ -104,6 +104,7 @@ CONFIG.captcha_setting = {
     password_growid = EXTERN.password_bot
 }
 
+CONFIG.use_payy_webhook = true
 CONFIG.say_random_word = true
 CONFIG.use_animation = true
 CONFIG.timezone = "UTC+7"
