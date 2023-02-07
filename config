@@ -51,6 +51,12 @@ CONFIG = {
 
 --==== UPDATE CONFIG PUT HERE ====--
 
+CONFIG.auto_wear_pickaxe = {
+    use_feature = true,
+    storage_pickaxe = "cukibi",
+    storage_pickaxe_id = "cukipick48"
+} 
+
 CONFIG.max_slot_backpack = 36
 CONFIG.detect_floating_objects = false
 CONFIG.disable_get_usage_cpu_ram = false
