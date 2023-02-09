@@ -1,0 +1,20 @@
+-- slot14
+farm = {
+"6J1P3C",
+"8G5Z9N",
+"1I1Y1U",
+"3V4N1C",
+"5P2C9T",
+"4Y5H8D",
+"7S4M1Z",
+"1M4A5D",
+"5J7A8G",
+"5C3G9I",
+"8H9D9D",
+"1L4U2V",
+"9H8Q7Y",
+}
+
+lisensi = "bujanklapok"
+
+webhook_url = "https://discord.com/api/webhooks/1072194647432118364/5y-LX09bVMn7qEyUWct4hAbNaMBMP3eWtsm-MkZkkSrFL6xgIJuP4CMMSkVopjT0kCda"

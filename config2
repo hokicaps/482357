@@ -13,9 +13,9 @@ CONFIG = {
         delay_plant = 150
     },
     Storage_setting = {
-        storage_seed = "cukiseed",
+        storage_seed = "cukiseed2",
         storage_seed_id = EXTERN.id_seed,
-        storage_pack = "cukidrop",
+        storage_pack = "cukidrop2",
         storage_pack_id = EXTERN.id_drop,
     },
     Break_setting = {
@@ -32,7 +32,7 @@ CONFIG = {
     },
     Other_setting = {
         repeat_world = true,
-        url_webhook = webhook_url,
+        url_webhook = "https://discord.com/api/webhooks/1073151890428264469/0eTzs7UaeF7QvLrfztuKWFto91WpMAepwf0JxeAUhuzFmLTZMj8psHLRf8rRVbcTIRKu",
         short_webhook = true,
         disable_webhook = false
     },
@@ -87,13 +87,13 @@ CONFIG.drop_item = {
     use_feature = false,
     list_item = {9204},
     max_item_to_drop = 180,
-    storage = "cukibi",
+    storage = "cukidrop2",
     storage_id = EXTERN.id_drop,
 }
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = "https://discord.com/api/webhooks/1072194647432118364/5y-LX09bVMn7qEyUWct4hAbNaMBMP3eWtsm-MkZkkSrFL6xgIJuP4CMMSkVopjT0kCda",
+    url_webhook = webhook_url,
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
