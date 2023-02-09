@@ -32,7 +32,7 @@ CONFIG = {
     },
     Other_setting = {
         repeat_world = true,
-        url_webhook = webhook,
+        url_webhook = "https://discord.com/api/webhooks/1073151890428264469/0eTzs7UaeF7QvLrfztuKWFto91WpMAepwf0JxeAUhuzFmLTZMj8psHLRf8rRVbcTIRKu",
         short_webhook = true,
         disable_webhook = false
     },
@@ -87,7 +87,7 @@ CONFIG.drop_item = {
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = "https://discord.com/api/webhooks/1072194647432118364/5y-LX09bVMn7qEyUWct4hAbNaMBMP3eWtsm-MkZkkSrFL6xgIJuP4CMMSkVopjT0kCda",
+    url_webhook = webhook,
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
