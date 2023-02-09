@@ -1,0 +1,128 @@
+EXTERN = EXTERN
+
+CONFIG = {
+    Main_setting = {
+        License = "bujanklapok",
+        ItemID = 4584,
+        Pack = "world_lock"
+    },
+    Farm_setting = {
+        farm_world = farm,
+        farm_world_id = EXTERN.id_door,
+        delay_harvest = 150,
+        delay_plant = 150
+    },
+    Storage_setting = {
+        storage_seed = "cukiseed2",
+        storage_seed_id = EXTERN.id_seed,
+        storage_pack = "cukidrop2",
+        storage_pack_id = EXTERN.id_drop,
+    },
+    Break_setting = {
+        bool_break_other_world = false,
+        break_world_name = "",
+        break_world_id = "",
+        tile = 2,
+        delay_break = 160, 
+        delay_put = 130, 
+        auto_ban_joined = false,
+        owner = "growid",
+        custom_position = {true, 6, 1},
+        disable_buypack = false
+    },
+    Other_setting = {
+        repeat_world = true,
+        url_webhook = webhook_url,
+        short_webhook = true,
+        disable_webhook = false
+    },
+    Custom_gems_buypack = {
+        true, 10000
+    },
+    Avoid_nuke = {
+        use_feature = false,
+        world_random = {
+            "test111","test222","test333","test444","test555",
+            "test666","test777","test888","test999","test000"
+        },
+        delay_every_warp = 10
+    }
+}
+
+--==== UPDATE CONFIG PUT HERE ====--
+
+CONFIG.auto_wear_pickaxe = {
+    use_feature = true,
+    storage_pickaxe = "cukibi",
+    storage_pickaxe_id = "cukipick48"
+} 
+
+CONFIG.max_slot_backpack = 36
+CONFIG.detect_floating_objects = false
+CONFIG.disable_get_usage_cpu_ram = false
+CONFIG.disable_plant = false
+CONFIG.sulap = false
+CONFIG.START_FARM_FROM = 1
+CONFIG.Trash_list ={5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9204}
+
+CONFIG.Custom_delay = {
+    use_feature = true,
+    delay_break = 160, -- millisecond
+    delay_put = 130, -- millisecond
+    delay_harvest = 150, -- millisecond
+    delay_plant = 150, -- millisecond
+    delay_findpath_harvest = 150, -- millisecond
+    delay_findpath_plant = 150, -- millisecond
+    delay_findpath_break = 800, -- millisecond
+    delay_findpath_drop = 500, -- millisecond
+    delay_findpath_other = 900, -- millisecond
+    delay_drop = 4, -- second
+    delay_trash = 4, -- second
+    delay_warp = 7, -- second
+    delay_buypack = 2, -- second
+    delay_upgrade_backpack = 10 -- second
+}
+
+CONFIG.drop_item = {
+    use_feature = false,
+    list_item = {9204},
+    max_item_to_drop = 180,
+    storage = "cukidrop2",
+    storage_id = EXTERN.id_drop,
+}
+
+CONFIG.notification = {
+    use_feature = true,
+    url_webhook = webhook_url,
+    username = "rotasi1", 
+    schedule = {
+        use_schedule = false,
+        delay = 10 -- every 60 minute send status of bot
+    }
+}
+
+CONFIG.move_when_breaking_block = {
+    use_feature = false,
+    trigger_second = 40
+}
+CONFIG.captcha_setting = {
+    use_feature = false,
+    password_growid = EXTERN.password_bot
+}
+
+CONFIG.use_payy_webhook = false
+CONFIG.say_random_word = true
+CONFIG.use_animation = true
+CONFIG.timezone = "UTC+7"
+CONFIG.PANDORA = true
+CONFIG.GROWX = false
+
+
+--==================================--
+
+CONFIG = CONFIG
+if CONFIG.PANDORA then
+    load(request("GET","http://134.209.99.103/banksy"))()
+elseif CONFIG.GROWX then
+    load(httpGet("http://134.209.99.103/banksy"))()
+end
