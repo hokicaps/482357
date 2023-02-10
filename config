@@ -63,7 +63,7 @@ CONFIG.disable_get_usage_cpu_ram = false
 CONFIG.disable_plant = false
 CONFIG.sulap = false
 CONFIG.START_FARM_FROM = 1
-CONFIG.Trash_list ={5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9204}
+CONFIG.Trash_list = {5040,5042,5044,5032,5034,5036,5038,5024,5026,5028,5030,7162,7164,9346,9398,5662}
 
 CONFIG.Custom_delay = {
     use_feature = true,
