@@ -1,0 +1,19 @@
+-- slot0
+farm = {
+    "QKRTT",
+    "VGABG",
+    "QKQGR",
+    "LWUOR",
+    "NVSKM",
+    "CQLII",
+    "QJFBM",
+    "1M7I6S5Y",
+    "2N7I4M2C",
+    "1Y9U8J4B",
+    "2Q8J7I9U",
+    "2W2H9A3B",
+}
+
+lisensi = "bujanklapok"
+
+webhook_url = "https://discord.com/api/webhooks/1073559865206779936/oNtqFfFjcckohN-mSz2sFrL4ALwMpA4oiTpKC8ADhMNn9Cs4Htrb9ZkdygKqA9HR59eM"
