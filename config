@@ -32,7 +32,7 @@ CONFIG = {
     },
     Other_setting = {
         repeat_world = true,
-        url_webhook = webhook_url,
+        url_webhook = EXTERN.webhook_url,
         short_webhook = true,
         disable_webhook = false
     },
@@ -93,7 +93,7 @@ CONFIG.drop_item = {
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = "https://discord.com/api/webhooks/1073233298874183740/LR3L7NM1q8_osxzThu6Ho9J49I_xZhZvHe20LLem2CLL2GSuej2LBGdpQDw5s2mNMYk6",
+    url_webhook = EXTERN.webhook_url,
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
