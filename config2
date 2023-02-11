@@ -93,7 +93,7 @@ CONFIG.drop_item = {
 
 CONFIG.notification = {
     use_feature = true,
-    url_webhook = EXTERN.webhook_url,
+    url_webhook = EXTERN.webhook_notif,
     username = "rotasi1", 
     schedule = {
         use_schedule = false,
