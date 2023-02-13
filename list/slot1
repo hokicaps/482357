@@ -17,4 +17,4 @@ farm = {
 
 lisensi = "bujanklapok"
 
-webhook_url = EXTERN.webhook_url,
+webhook_url = "",
